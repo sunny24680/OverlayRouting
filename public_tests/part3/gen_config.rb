@@ -1,0 +1,12 @@
+fHandle = File.open("nodes.txt", 'w')
+
+fHandle.write("n1,#{(2000..60000).to_a.sample()}\n")
+fHandle.write("n2,#{(2000..60000).to_a.sample()}\n")
+fHandle.write("n3,#{(2000..60000).to_a.sample()}\n")
+fHandle.write("n4,#{(2000..60000).to_a.sample()}\n")
+fHandle.write("n5,#{(2000..60000).to_a.sample()}\n")
+fHandle.write("n6,#{(2000..60000).to_a.sample()}\n")
+fHandle.write("n7,#{(2000..60000).to_a.sample()}\n")
+fHandle.write("n8,#{(2000..60000).to_a.sample()}\n")
+fHandle.write("n9,#{(2000..60000).to_a.sample()}\n")
+fHandle.write("n10,#{(2000..60000).to_a.sample()}\n")
